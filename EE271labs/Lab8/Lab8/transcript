@@ -1,0 +1,3838 @@
+# Reading D:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:09:15 on Dec 07,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 23:09:16 on Dec 07,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work score_counter_testbench 
+# Start time: 23:09:17 on Dec 07,2020
+# Loading sv_std.std
+# Loading work.score_counter_testbench
+# Loading work.score_counter
+# Loading work.seg7
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : score_counter.sv(70)
+#    Time: 10650 ps  Iteration: 1  Instance: /score_counter_testbench
+# Break in Module score_counter_testbench at score_counter.sv line 70
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:10:25 on Dec 07,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 23:10:25 on Dec 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:10:28 on Dec 07,2020, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work score_counter_testbench 
+# Start time: 23:10:28 on Dec 07,2020
+# Loading sv_std.std
+# Loading work.score_counter_testbench
+# Loading work.score_counter
+# Loading work.seg7
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : score_counter.sv(64)
+#    Time: 8850 ps  Iteration: 1  Instance: /score_counter_testbench
+# Break in Module score_counter_testbench at score_counter.sv line 64
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:56:37 on Dec 07,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 23:56:37 on Dec 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:56:39 on Dec 07,2020, Elapsed time: 0:46:11
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work pipe_filler_testbench 
+# Start time: 23:56:39 on Dec 07,2020
+# Loading sv_std.std
+# Loading work.pipe_filler_testbench
+# Loading work.pipe_filler
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : pipe_filler.sv(39)
+#    Time: 1250 ps  Iteration: 1  Instance: /pipe_filler_testbench
+# Break in Module pipe_filler_testbench at pipe_filler.sv line 39
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:58:03 on Dec 07,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 23:58:03 on Dec 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:58:07 on Dec 07,2020, Elapsed time: 0:01:28
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work pipe_filler_testbench 
+# Start time: 23:58:07 on Dec 07,2020
+# Loading sv_std.std
+# Loading work.pipe_filler_testbench
+# Loading work.pipe_filler
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : pipe_filler.sv(39)
+#    Time: 1250 ps  Iteration: 1  Instance: /pipe_filler_testbench
+# Break in Module pipe_filler_testbench at pipe_filler.sv line 39
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 23:59:28 on Dec 07,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 23:59:28 on Dec 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:59:29 on Dec 07,2020, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work pipe_generator_testbench 
+# Start time: 23:59:29 on Dec 07,2020
+# Loading sv_std.std
+# Loading work.pipe_generator_testbench
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : pipe_generator.sv(43)
+#    Time: 12950 ps  Iteration: 1  Instance: /pipe_generator_testbench
+# Break in Module pipe_generator_testbench at pipe_generator.sv line 43
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:00:17 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 00:00:17 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:00:20 on Dec 08,2020, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work pipe_generator_testbench 
+# Start time: 00:00:20 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.pipe_generator_testbench
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : pipe_generator.sv(43)
+#    Time: 12950 ps  Iteration: 1  Instance: /pipe_generator_testbench
+# Break in Module pipe_generator_testbench at pipe_generator.sv line 43
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:01:07 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 00:01:07 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:01:10 on Dec 08,2020, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work pipe_generator_testbench 
+# Start time: 00:01:10 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.pipe_generator_testbench
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : pipe_generator.sv(43)
+#    Time: 25750 ps  Iteration: 1  Instance: /pipe_generator_testbench
+# Break in Module pipe_generator_testbench at pipe_generator.sv line 43
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8_pipe_generator.do
+vlog *.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:05:25 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# ** Error: collision_detector.sv(6): (vlog-2730) Undefined variable: 'i'.
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# End time: 00:05:25 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+vlog *.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:05:35 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 00:05:35 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog *.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:10:59 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# ** Error: collision_detector.sv(6): (vlog-2730) Undefined variable: 'i'.
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# End time: 00:11:00 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+vlog *.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:12:17 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 00:12:17 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:47:59 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# ** Error (suppressible): DE1_SoC.sv(52): (vlog-2388) 'position' already declared in this scope (DE1_SoC).
+# ** Error: DE1_SoC.sv(64): (vlog-2730) Undefined variable: 'clk'.
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# ** Error: collision_detector.sv(2): In, out, or inout does not appear in port list: clk.
+# ** Error: collision_detector.sv(2): In, out, or inout does not appear in port list: rst.
+# ** Error: collision_detector.sv(6): Range must be bounded by constant expressions.
+# ** Error: collision_detector.sv(7): Range must be bounded by constant expressions.
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# End time: 00:47:59 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog *.sv"
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:48:42 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# ** Error (suppressible): DE1_SoC.sv(52): (vlog-2388) 'position' already declared in this scope (DE1_SoC).
+# ** Error: DE1_SoC.sv(64): (vlog-2730) Undefined variable: 'clk'.
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# ** Error: collision_detector.sv(6): Range must be bounded by constant expressions.
+# ** Error: collision_detector.sv(7): Range must be bounded by constant expressions.
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# End time: 00:48:42 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog *.sv"
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:49:31 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# ** Error (suppressible): DE1_SoC.sv(52): (vlog-2388) 'position' already declared in this scope (DE1_SoC).
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# ** Error: collision_detector.sv(6): Range must be bounded by constant expressions.
+# ** Error: collision_detector.sv(7): Range must be bounded by constant expressions.
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# End time: 00:49:31 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog *.sv"
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:50:05 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# ** Error (suppressible): DE1_SoC.sv(52): (vlog-2388) 'position' already declared in this scope (DE1_SoC).
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# End time: 00:50:05 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog *.sv"
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:50:26 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# ** Error (suppressible): (vlog-7033) DE1_SoC.sv(66): Variable 'RedPixels' driven in a combinational block, may not be driven by any other process. See DE1_SoC.sv(58).
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# End time: 00:50:26 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog *.sv"
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 00:50:40 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 00:50:41 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 00:50:45 on Dec 08,2020, Elapsed time: 0:49:35
+# Errors: 29, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work pipe_generator_testbench 
+# Start time: 00:50:45 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.pipe_generator_testbench
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : pipe_generator.sv(43)
+#    Time: 25750 ps  Iteration: 1  Instance: /pipe_generator_testbench
+# Break in Module pipe_generator_testbench at pipe_generator.sv line 43
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:04:36 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# ** Error (suppressible): DE1_SoC.sv(57): (vlog-2388) 'green_column_13' already declared in this scope (DE1_SoC).
+# ** Error (suppressible): DE1_SoC.sv(57): (vlog-2388) 'green_column_14' already declared in this scope (DE1_SoC).
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# ** Error: (vlog-13069) collision_detector.sv(10): near "end": syntax error, unexpected end.
+# ** Error: pipe_filler.sv(7): (vlog-2730) Undefined variable: 'GAP_BASE_WIDTH'.
+# ** Error: pipe_filler.sv(8): (vlog-2730) Undefined variable: 'GAP_BASE'.
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# End time: 01:04:36 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog *.sv"
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:05:28 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# ** Error (suppressible): DE1_SoC.sv(57): (vlog-2388) 'green_column_13' already declared in this scope (DE1_SoC).
+# ** Error (suppressible): DE1_SoC.sv(57): (vlog-2388) 'green_column_14' already declared in this scope (DE1_SoC).
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# End time: 01:05:28 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog *.sv"
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:05:35 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# ** Error (suppressible): DE1_SoC.sv(57): (vlog-2388) 'green_column_13' already declared in this scope (DE1_SoC).
+# ** Error (suppressible): DE1_SoC.sv(57): (vlog-2388) 'green_column_14' already declared in this scope (DE1_SoC).
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# End time: 01:05:35 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog *.sv"
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:06:03 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 01:06:03 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:06:04 on Dec 08,2020, Elapsed time: 0:15:19
+# Errors: 12, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work pipe_generator_testbench 
+# Start time: 01:06:04 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.pipe_generator_testbench
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : pipe_generator.sv(43)
+#    Time: 25750 ps  Iteration: 1  Instance: /pipe_generator_testbench
+# Break in Module pipe_generator_testbench at pipe_generator.sv line 43
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:18:31 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 01:18:32 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 01:18:38 on Dec 08,2020, Elapsed time: 0:12:34
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 01:18:38 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# ** Warning: (vsim-3017) DE1_SoC.sv(101): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: DE1_SoC.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(101): [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: DE1_SoC.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(101): [PCDPC] - Port size (4) does not match connection size (7) for port 'KEY'. The port definition is at: DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: DE1_SoC.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(101): [PCDPC] - Port size (10) does not match connection size (4) for port 'SW'. The port definition is at: DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: DE1_SoC.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(101): [PCDPC] - Port size (36) does not match connection size (10) for port 'GPIO_1'. The port definition is at: DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: DE1_SoC.sv
+# ** Warning: (vsim-3722) DE1_SoC.sv(101): [TFMPC] - Missing connection for port 'CLOCK_50'.
+# ** Warning: (vsim-3839) DE1_SoC.sv(112): Variable '/DE1_SoC_testbench/SW[9]', driven via a port connection, is multiply driven. See DE1_SoC.sv(101).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: DE1_SoC.sv
+# ** Warning: (vsim-3839) DE1_SoC.sv(111): Variable '/DE1_SoC_testbench/SW[9]', driven via a port connection, is multiply driven. See DE1_SoC.sv(101).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: DE1_SoC.sv
+# ** Warning: (vsim-3839) DE1_SoC.sv(106): Variable '/DE1_SoC_testbench/CLOCK_50', driven via a port connection, is multiply driven. See DE1_SoC.sv(101).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: DE1_SoC.sv
+# ** Warning: (vsim-3839) DE1_SoC.sv(105): Variable '/DE1_SoC_testbench/CLOCK_50', driven via a port connection, is multiply driven. See DE1_SoC.sv(101).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: DE1_SoC.sv
+# ** Error: Cannot open macro file: lab8.do
+# Error in macro ./runlab.do line 17
+# Cannot open macro file: lab8.do
+#     while executing
+# "do lab8.do"
+add wave -position end  sim:/DE1_SoC_testbench/dut/generated_pipe
+add wave -position end  sim:/DE1_SoC_testbench/dut/RedPixels
+add wave -position end  sim:/DE1_SoC_testbench/dut/GrnPixels
+add wave -position 0  sim:/DE1_SoC_testbench/dut/clkSelect
+add wave -position end  sim:/DE1_SoC_testbench/dut/position
+add wave -position end  sim:/DE1_SoC_testbench/dut/green_refresh_counter
+add wave -position end  sim:/DE1_SoC_testbench/dut/button
+add wave -position end  sim:/DE1_SoC_testbench/dut/div_clk
+add wave -position 1  sim:/DE1_SoC_testbench/dut/rst
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:20:44 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 01:20:44 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:20:47 on Dec 08,2020, Elapsed time: 0:02:09
+# Errors: 3, Warnings: 10
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 01:20:47 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# ** Warning: (vsim-3017) DE1_SoC.sv(101): [TFMPC] - Too few port connections. Expected 11, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: DE1_SoC.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(101): [PCDPC] - Port size (7) does not match connection size (1) for port 'HEX0'. The port definition is at: DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: DE1_SoC.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(101): [PCDPC] - Port size (4) does not match connection size (7) for port 'KEY'. The port definition is at: DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: DE1_SoC.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(101): [PCDPC] - Port size (10) does not match connection size (4) for port 'SW'. The port definition is at: DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: DE1_SoC.sv
+# ** Warning: (vsim-3015) DE1_SoC.sv(101): [PCDPC] - Port size (36) does not match connection size (10) for port 'GPIO_1'. The port definition is at: DE1_SoC.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench/dut File: DE1_SoC.sv
+# ** Warning: (vsim-3722) DE1_SoC.sv(101): [TFMPC] - Missing connection for port 'CLOCK_50'.
+# ** Warning: (vsim-3839) DE1_SoC.sv(112): Variable '/DE1_SoC_testbench/SW[9]', driven via a port connection, is multiply driven. See DE1_SoC.sv(101).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: DE1_SoC.sv
+# ** Warning: (vsim-3839) DE1_SoC.sv(111): Variable '/DE1_SoC_testbench/SW[9]', driven via a port connection, is multiply driven. See DE1_SoC.sv(101).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: DE1_SoC.sv
+# ** Warning: (vsim-3839) DE1_SoC.sv(106): Variable '/DE1_SoC_testbench/CLOCK_50', driven via a port connection, is multiply driven. See DE1_SoC.sv(101).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: DE1_SoC.sv
+# ** Warning: (vsim-3839) DE1_SoC.sv(105): Variable '/DE1_SoC_testbench/CLOCK_50', driven via a port connection, is multiply driven. See DE1_SoC.sv(101).
+#    Time: 0 ps  Iteration: 0  Instance: /DE1_SoC_testbench File: DE1_SoC.sv
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(114)
+#    Time: 102650 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:22:42 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 01:22:43 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 01:22:46 on Dec 08,2020, Elapsed time: 0:01:59
+# Errors: 0, Warnings: 10
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 01:22:46 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(114)
+#    Time: 102650 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:25:07 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 01:25:07 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:25:13 on Dec 08,2020, Elapsed time: 0:02:27
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 01:25:13 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(114)
+#    Time: 102650 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 114
+add wave -position end  sim:/DE1_SoC_testbench/dut/gameover
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:26:55 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 01:26:55 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:26:59 on Dec 08,2020, Elapsed time: 0:01:46
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 01:26:59 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(114)
+#    Time: 102650 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 114
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:52:18 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 01:52:18 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:52:25 on Dec 08,2020, Elapsed time: 0:25:26
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 01:52:25 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(118)
+#    Time: 102650 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 118
+vlog *.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:02:06 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 02:02:06 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog *.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:04:52 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 02:04:53 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog *.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 02:13:04 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 02:13:05 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog *.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:47:21 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 03:47:22 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog *.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 03:59:41 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# ** Error: (vlog-13069) score_counter.sv(36): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: score_counter.sv(42): Illegal declaration after the statement near line '38'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: score_counter.sv(45): Illegal declaration after the statement near line '42'.  Declarations must precede statements.  Look for stray semicolons.
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# End time: 03:59:41 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+vlog *.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:01:35 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# ** Error: (vlog-13069) score_counter.sv(35): near "endmodule": syntax error, unexpected endmodule.
+# ** Error: score_counter.sv(41): Illegal declaration after the statement near line '37'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: score_counter.sv(44): Illegal declaration after the statement near line '41'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) score_counter.sv(48): near "initial": syntax error, unexpected initial.
+# ** Error: (vlog-13069) score_counter.sv(74): near "endmodule": syntax error, unexpected endmodule.
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# End time: 04:01:35 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+vlog *.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:01:50 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 04:01:50 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog *.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:06:14 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 04:06:15 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:19:29 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 04:19:29 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 04:19:37 on Dec 08,2020, Elapsed time: 2:27:12
+# Errors: 10, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work score_counter_testbench 
+# Start time: 04:19:37 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.score_counter_testbench
+# Loading work.score_counter
+# Loading work.seg7
+# ** Error: (vish-4014) No objects found matching '/score_counter_testbench/column'.
+# Executing ONERROR command at macro ./lab8_score_counter.do line 8
+# ** Error: (vish-4014) No objects found matching '/score_counter_testbench/dut/count'.
+# Executing ONERROR command at macro ./lab8_score_counter.do line 9
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : score_counter.sv(77)
+#    Time: 8850 ps  Iteration: 1  Instance: /score_counter_testbench
+# Break in Module score_counter_testbench at score_counter.sv line 77
+add wave -position 3  sim:/score_counter_testbench/green_column
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8_score_counter.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:20:33 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 04:20:33 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 04:20:36 on Dec 08,2020, Elapsed time: 0:00:59
+# Errors: 6, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work score_counter_testbench 
+# Start time: 04:20:36 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.score_counter_testbench
+# Loading work.score_counter
+# Loading work.seg7
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : score_counter.sv(77)
+#    Time: 8850 ps  Iteration: 1  Instance: /score_counter_testbench
+# Break in Module score_counter_testbench at score_counter.sv line 77
+add wave -position end  sim:/score_counter_testbench/dut/count_bcd[7]
+add wave -position end  sim:/score_counter_testbench/dut/count_bcd[6]
+add wave -position end  sim:/score_counter_testbench/dut/count_bcd[5]
+add wave -position end  sim:/score_counter_testbench/dut/count_bcd[4]
+add wave -position end  sim:/score_counter_testbench/dut/count_bcd[3]
+add wave -position end  sim:/score_counter_testbench/dut/count_bcd[2]
+add wave -position end  sim:/score_counter_testbench/dut/count_bcd[1]
+add wave -position end  sim:/score_counter_testbench/dut/count_bcd[0]
+add wave -position end  sim:/score_counter_testbench/dut/previous
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8_score_counter.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 04:24:40 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 04:24:40 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 04:24:43 on Dec 08,2020, Elapsed time: 0:04:07
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work score_counter_testbench 
+# Start time: 04:24:43 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.score_counter_testbench
+# Loading work.score_counter
+# Loading work.seg7
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : score_counter.sv(77)
+#    Time: 8850 ps  Iteration: 1  Instance: /score_counter_testbench
+# Break in Module score_counter_testbench at score_counter.sv line 77
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8_score_counter.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:08:55 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:08:55 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 05:09:01 on Dec 08,2020, Elapsed time: 0:44:18
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work collision_detector_testbench 
+# Start time: 05:09:01 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.collision_detector_testbench
+# Loading work.score_counter
+# Loading work.seg7
+# ** Warning: (vsim-3017) collision_detector.sv(15): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench/dut File: score_counter.sv
+# ** Warning: (vsim-3015) collision_detector.sv(15): [PCDPC] - Port size (7) does not match connection size (1) for port 'hex0'. The port definition is at: score_counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench/dut File: score_counter.sv
+# ** Warning: (vsim-3015) collision_detector.sv(15): [PCDPC] - Port size (7) does not match connection size (32) for port 'hex1'. The port definition is at: score_counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench/dut File: score_counter.sv
+# ** Warning: (vsim-3015) collision_detector.sv(15): [PCDPC] - Port size (1) does not match connection size (16) for port 'gameover'. The port definition is at: score_counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench/dut File: score_counter.sv
+# ** Warning: (vsim-3722) collision_detector.sv(15): [TFMPC] - Missing connection for port 'clk'.
+# ** Warning: (vsim-3722) collision_detector.sv(15): [TFMPC] - Missing connection for port 'rst'.
+# ** Warning: (vsim-3839) collision_detector.sv(41): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(40): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(39): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(36): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(35): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(34): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(31): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(30): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(29): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(26): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(25): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(24): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(21): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(20): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(19): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Error: Cannot open macro file: lab8_collision_detector.do
+# Error in macro ./runlab.do line 17
+# Cannot open macro file: lab8_collision_detector.do
+#     while executing
+# "do lab8_collision_detector.do"
+add wave -position end  sim:/collision_detector_testbench/gameover
+add wave -position end  sim:/collision_detector_testbench/bird_position
+add wave -position end  sim:/collision_detector_testbench/green_column0
+add wave -position end  sim:/collision_detector_testbench/green_column1
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8_collision_detector
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:09:28 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:09:28 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 05:09:31 on Dec 08,2020, Elapsed time: 0:00:30
+# Errors: 3, Warnings: 21
+# vsim -voptargs=""+acc"" -t 1ps -lib work collision_detector_testbench 
+# Start time: 05:09:31 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.collision_detector_testbench
+# Loading work.score_counter
+# Loading work.seg7
+# ** Warning: (vsim-3017) collision_detector.sv(15): [TFMPC] - Too few port connections. Expected 6, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench/dut File: score_counter.sv
+# ** Warning: (vsim-3015) collision_detector.sv(15): [PCDPC] - Port size (7) does not match connection size (1) for port 'hex0'. The port definition is at: score_counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench/dut File: score_counter.sv
+# ** Warning: (vsim-3015) collision_detector.sv(15): [PCDPC] - Port size (7) does not match connection size (32) for port 'hex1'. The port definition is at: score_counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench/dut File: score_counter.sv
+# ** Warning: (vsim-3015) collision_detector.sv(15): [PCDPC] - Port size (1) does not match connection size (16) for port 'gameover'. The port definition is at: score_counter.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench/dut File: score_counter.sv
+# ** Warning: (vsim-3722) collision_detector.sv(15): [TFMPC] - Missing connection for port 'clk'.
+# ** Warning: (vsim-3722) collision_detector.sv(15): [TFMPC] - Missing connection for port 'rst'.
+# ** Warning: (vsim-3839) collision_detector.sv(41): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(40): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(39): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(36): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(35): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(34): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(31): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(30): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(29): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(26): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(25): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(24): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(21): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(20): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Warning: (vsim-3839) collision_detector.sv(19): Variable '/collision_detector_testbench/bird_position', driven via a port connection, is multiply driven. See collision_detector.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /collision_detector_testbench File: collision_detector.sv
+# ** Error: Cannot open macro file: lab8_collision_detector.do
+# Error in macro ./runlab.do line 17
+# Cannot open macro file: lab8_collision_detector.do
+#     while executing
+# "do lab8_collision_detector.do"
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:10:48 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:10:48 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 05:10:51 on Dec 08,2020, Elapsed time: 0:01:20
+# Errors: 3, Warnings: 21
+# vsim -voptargs=""+acc"" -t 1ps -lib work collision_detector_testbench 
+# Start time: 05:10:51 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.collision_detector_testbench
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:11:49 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# ** Warning: collision_detector.sv(22): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: collision_detector.sv(28): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: collision_detector.sv(37): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: collision_detector.sv(38): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:11:49 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
+# End time: 05:11:52 on Dec 08,2020, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 4
+# vsim -voptargs=""+acc"" -t 1ps -lib work collision_detector_testbench 
+# Start time: 05:11:52 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.collision_detector_testbench
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:12:35 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:12:35 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 05:12:38 on Dec 08,2020, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work collision_detector_testbench 
+# Start time: 05:12:38 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.collision_detector_testbench
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:16:44 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:16:44 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 05:16:47 on Dec 08,2020, Elapsed time: 0:04:09
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work collision_detector_testbench 
+# Start time: 05:16:47 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.collision_detector_testbench
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:22:18 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:22:18 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 05:22:21 on Dec 08,2020, Elapsed time: 0:05:34
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work bird_testbench 
+# Start time: 05:22:21 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.bird_testbench
+# Loading work.bird
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : bird.sv(66)
+#    Time: 3450 ps  Iteration: 1  Instance: /bird_testbench
+# Break in Module bird_testbench at bird.sv line 66
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:23:25 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:23:25 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 05:23:28 on Dec 08,2020, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work pipe_filler_testbench 
+# Start time: 05:23:28 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.pipe_filler_testbench
+# Loading work.pipe_filler
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : pipe_filler.sv(39)
+#    Time: 1250 ps  Iteration: 1  Instance: /pipe_filler_testbench
+# Break in Module pipe_filler_testbench at pipe_filler.sv line 39
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:26:05 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# ** Error: (vlog-13069) pipe_filler.sv(18): near "int": syntax error, unexpected "SystemVerilog keyword 'int'", expecting IDENTIFIER or genvar.
+# ** Error: pipe_filler.sv(18): (vlog-13205) Syntax error found in the scope following 'i'. Is there a missing '::'?
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# ** Error: (vlog-13069) pipe_filler.sv(18): near "4": syntax error, unexpected INTEGER NUMBER, expecting class.
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# End time: 05:26:05 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./runlab.do line 7
+# d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog *.sv"
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:26:41 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:26:41 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 05:26:45 on Dec 08,2020, Elapsed time: 0:03:17
+# Errors: 6, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work pipe_filler_testbench 
+# Start time: 05:26:45 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.pipe_filler_testbench
+# Loading work.pipe_filler
+# ** Error: (vish-4014) No objects found matching '/pipe_filler_testbench/clk'.
+# Executing ONERROR command at macro ./lab8_pipe_filler.do line 3
+# ** Error: (vish-4014) No objects found matching '/pipe_filler_testbench/rst'.
+# Executing ONERROR command at macro ./lab8_pipe_filler.do line 4
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:28:18 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:28:19 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 05:28:22 on Dec 08,2020, Elapsed time: 0:01:37
+# Errors: 6, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work pipe_filler_testbench 
+# Start time: 05:28:22 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.pipe_filler_testbench
+# Loading work.pipe_filler
+# ** Error: (vish-4014) No objects found matching '/pipe_filler_testbench/clk'.
+# Executing ONERROR command at macro ./lab8_pipe_filler.do line 3
+# ** Error: (vish-4014) No objects found matching '/pipe_filler_testbench/rst'.
+# Executing ONERROR command at macro ./lab8_pipe_filler.do line 4
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8_pipe_filler.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8_pipe_filler.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8_pipe_filler.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:31:55 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:31:55 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 05:32:00 on Dec 08,2020, Elapsed time: 0:03:38
+# Errors: 6, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work pipe_generator_testbench 
+# Start time: 05:32:00 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.pipe_generator_testbench
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : pipe_generator.sv(43)
+#    Time: 25750 ps  Iteration: 1  Instance: /pipe_generator_testbench
+# Break in Module pipe_generator_testbench at pipe_generator.sv line 43
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:33:46 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:33:46 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 05:33:49 on Dec 08,2020, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work score_counter_testbench 
+# Start time: 05:33:49 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.score_counter_testbench
+# Loading work.score_counter
+# Loading work.seg7
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : score_counter.sv(77)
+#    Time: 8850 ps  Iteration: 1  Instance: /score_counter_testbench
+# Break in Module score_counter_testbench at score_counter.sv line 77
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:40:28 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:40:28 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 05:40:33 on Dec 08,2020, Elapsed time: 0:06:44
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 05:40:33 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(120)
+#    Time: 102650 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 120
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:43:05 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:43:05 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 05:43:08 on Dec 08,2020, Elapsed time: 0:02:35
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 05:43:08 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(120)
+#    Time: 102650 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 120
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:45:21 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:45:22 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 05:45:25 on Dec 08,2020, Elapsed time: 0:02:17
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 05:45:25 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(120)
+#    Time: 409850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 120
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8.do
+vlog *sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 05:48:15 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 05:48:15 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog *sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:27:22 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# ** Error: (vlog-13069) DE1_SoC.sv(118): near "[": syntax error, unexpected '[', expecting '('.
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# End time: 07:27:22 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# d:/intelFPGA_lite/17.0/modelsim_ase/win32aloem/vlog failed.
+vlog *sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:27:30 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 07:27:31 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:27:34 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 07:27:34 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:27:38 on Dec 08,2020, Elapsed time: 1:42:13
+# Errors: 2, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 07:27:38 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(120)
+#    Time: 409850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 120
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:28:54 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 07:28:55 on Dec 08,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 07:28:59 on Dec 08,2020, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 07:28:59 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(120)
+#    Time: 409850 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 120
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:29:46 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 07:29:46 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:29:51 on Dec 08,2020, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 07:29:51 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(120)
+#    Time: 1638650 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 120
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:30:51 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 07:30:51 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:30:57 on Dec 08,2020, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 07:30:57 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(120)
+#    Time: 819450 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 120
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:32:37 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 07:32:37 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:32:41 on Dec 08,2020, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 07:32:41 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(122)
+#    Time: 1744250 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 122
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:33:40 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 07:33:40 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:33:45 on Dec 08,2020, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 07:33:45 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(122)
+#    Time: 2616250 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 122
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:34:37 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 07:34:37 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:34:42 on Dec 08,2020, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 07:34:42 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(122)
+#    Time: 5600250 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 122
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:34:54 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 07:34:54 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:34:56 on Dec 08,2020, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 07:34:57 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(122)
+#    Time: 5600250 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 122
+add wave -position end  sim:/DE1_SoC_testbench/dut/HEX1
+add wave -position end  sim:/DE1_SoC_testbench/dut/HEX0
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:39:04 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 07:39:04 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:39:07 on Dec 08,2020, Elapsed time: 0:04:10
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 07:39:07 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(122)
+#    Time: 1500250 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 122
+add wave -position 2  sim:/DE1_SoC_testbench/dut/KEY[0]
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 07:40:15 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 07:40:15 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 07:40:18 on Dec 08,2020, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work DE1_SoC_testbench 
+# Start time: 07:40:18 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.DE1_SoC_testbench
+# Loading work.DE1_SoC
+# Loading work.clock_divider
+# Loading work.LEDDriver
+# Loading work.series_dffs
+# Loading work.bird
+# Loading work.pipe_generator
+# Loading work.random
+# Loading work.pipe_filler
+# Loading work.score_counter
+# Loading work.seg7
+# Loading work.collision_detector
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : DE1_SoC.sv(122)
+#    Time: 1500250 ps  Iteration: 1  Instance: /DE1_SoC_testbench
+# Break in Module DE1_SoC_testbench at DE1_SoC.sv line 122
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:07:01 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 08:07:01 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 08:07:04 on Dec 08,2020, Elapsed time: 0:26:46
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work bird_testbench 
+# Start time: 08:07:04 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.bird_testbench
+# Loading work.bird
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : bird.sv(66)
+#    Time: 3450 ps  Iteration: 1  Instance: /bird_testbench
+# Break in Module bird_testbench at bird.sv line 66
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:08:54 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 08:08:54 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 08:08:59 on Dec 08,2020, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work bird_testbench 
+# Start time: 08:08:59 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.bird_testbench
+# Loading work.bird
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : bird.sv(69)
+#    Time: 15950 ps  Iteration: 1  Instance: /bird_testbench
+# Break in Module bird_testbench at bird.sv line 69
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8_bird.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/Codes/FPGA/EE271/led-driver/lab8_bird.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:10:17 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 08:10:17 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 08:10:23 on Dec 08,2020, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work bird_testbench 
+# Start time: 08:10:23 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.bird_testbench
+# Loading work.bird
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : bird.sv(69)
+#    Time: 18350 ps  Iteration: 1  Instance: /bird_testbench
+# Break in Module bird_testbench at bird.sv line 69
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 08:11:00 on Dec 08,2020
+# vlog -reportprogress 300 DE1_SoC.sv LEDDriver.sv LED_test.sv bird.sv clock_divider.sv collision_detector.sv pipe_filler.sv pipe_generator.sv random.sv score_counter.sv seg7.sv series_dffs.sv 
+# -- Compiling module DE1_SoC
+# -- Compiling module DE1_SoC_testbench
+# -- Compiling module LEDDriver
+# -- Compiling module LEDDriver_Test
+# -- Compiling module LEDDriver_TestPhysical
+# -- Compiling module LED_test
+# -- Compiling module LED_test_testbench
+# -- Compiling module bird
+# -- Compiling module bird_testbench
+# -- Compiling module clock_divider
+# -- Compiling module collision_detector
+# -- Compiling module collision_detector_testbench
+# -- Compiling module pipe_filler
+# -- Compiling module pipe_filler_testbench
+# -- Compiling module pipe_generator
+# -- Compiling module pipe_generator_testbench
+# -- Compiling module random
+# -- Compiling module random_testbench
+# -- Compiling module score_counter
+# -- Compiling module score_counter_testbench
+# -- Compiling module seg7
+# -- Compiling module series_dffs
+# -- Compiling module series_dffs_testbench
+# 
+# Top level modules:
+# 	DE1_SoC_testbench
+# 	LEDDriver_Test
+# 	LEDDriver_TestPhysical
+# 	LED_test_testbench
+# 	bird_testbench
+# 	collision_detector_testbench
+# 	pipe_filler_testbench
+# 	pipe_generator_testbench
+# 	random_testbench
+# 	score_counter_testbench
+# 	series_dffs_testbench
+# End time: 08:11:00 on Dec 08,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 08:11:05 on Dec 08,2020, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work bird_testbench 
+# Start time: 08:11:05 on Dec 08,2020
+# Loading sv_std.std
+# Loading work.bird_testbench
+# Loading work.bird
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# ** Note: $stop    : bird.sv(69)
+#    Time: 19850 ps  Iteration: 1  Instance: /bird_testbench
+# Break in Module bird_testbench at bird.sv line 69
+# End time: 08:25:09 on Dec 08,2020, Elapsed time: 0:14:04
+# Errors: 0, Warnings: 0

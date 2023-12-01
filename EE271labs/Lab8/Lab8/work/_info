@@ -1,0 +1,546 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Codes/FPGA/EE271/led-driver
+vbird
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1607386260
+!i10b 1
+!s100 2O>0CIWDEC4CKFl9l;[?52
+IE9PDMGP?B=JSMIVc1RcYQ2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 bird_sv_unit
+S1
+R0
+Z5 w1607386257
+Z6 8bird.sv
+Z7 Fbird.sv
+L0 2
+Z8 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z9 !s108 1607386260.000000
+Z10 !s107 series_dffs.sv|seg7.sv|score_counter.sv|random.sv|pipe_generator.sv|pipe_filler.sv|collision_detector.sv|clock_divider.sv|bird.sv|LED_test.sv|LEDDriver.sv|DE1_SoC.sv|
+Z11 !s90 -reportprogress|300|DE1_SoC.sv|LEDDriver.sv|LED_test.sv|bird.sv|clock_divider.sv|collision_detector.sv|pipe_filler.sv|pipe_generator.sv|random.sv|score_counter.sv|seg7.sv|series_dffs.sv|
+!i113 1
+Z12 tCvgOpt 0
+vbird_testbench
+R1
+R2
+!i10b 1
+!s100 a75`co:0jXi[WfECX884Z3
+IiVZVa:ZF[4@68bJTOF;L33
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 43
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vclock_divider
+R1
+R2
+!i10b 1
+!s100 4PKDMMF3Q=3_SHG:jOYCU1
+IWeDPWHhTPhQbCIkARg8U40
+R3
+!s105 clock_divider_sv_unit
+S1
+R0
+w1606923496
+8clock_divider.sv
+Fclock_divider.sv
+L0 3
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vcollision_detector
+R1
+R2
+!i10b 1
+!s100 KV6<W8AdX1F6aZJadUf1H3
+IJWfBDYIcK<f1[MPU9fe>o3
+R3
+Z13 !s105 collision_detector_sv_unit
+S1
+R0
+Z14 w1607375786
+Z15 8collision_detector.sv
+Z16 Fcollision_detector.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vcollision_detector_testbench
+R1
+R2
+!i10b 1
+!s100 Fz<Oh9CDHMShcan<lFdn<3
+I4?MYgJ2Z`H9j]lMNkG8PM0
+R3
+R13
+S1
+R0
+R14
+R15
+R16
+L0 11
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vDE1_SoC
+R1
+R2
+!i10b 1
+!s100 _R30gnnJWk3o_cGe9E]V20
+IF6Z3W9=<66b5NACL4MZ]A2
+R3
+Z17 !s105 DE1_SoC_sv_unit
+S1
+R0
+Z18 w1607384333
+Z19 8DE1_SoC.sv
+Z20 FDE1_SoC.sv
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@d@e1_@so@c
+vDE1_SoC_testbench
+R1
+R2
+!i10b 1
+!s100 N:0mA;ZI]1b=zAD;kmQE@0
+IeIRedVfXVRg[ReZ@hIj1U3
+R3
+R17
+S1
+R0
+R18
+R19
+R20
+L0 100
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@d@e1_@so@c_testbench
+vLED_test
+R1
+R2
+!i10b 1
+!s100 R]cFP1z2zEnlXCXMbkBHP2
+I@KgM]kWkIBWLnV;N53B][2
+R3
+Z21 !s105 LED_test_sv_unit
+S1
+R0
+Z22 w1606511400
+Z23 8LED_test.sv
+Z24 FLED_test.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@l@e@d_test
+vLED_test_testbench
+R1
+R2
+!i10b 1
+!s100 f`PcDnl6iz9m7N[5iln1d3
+IcHga5`9XY8=6O_ebl7keD2
+R3
+R21
+S1
+R0
+R22
+R23
+R24
+L0 59
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@l@e@d_test_testbench
+vLEDDriver
+R1
+R2
+!i10b 1
+!s100 n<gEFK66[bWGC8M781`3C0
+I>MY=TXR<^=^QaOb5?Yk3J0
+R3
+Z25 !s105 LEDDriver_sv_unit
+S1
+R0
+Z26 w1606501662
+Z27 8LEDDriver.sv
+Z28 FLEDDriver.sv
+L0 13
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@l@e@d@driver
+vLEDDriver_Test
+R1
+R2
+!i10b 1
+!s100 BFzZiRmkYZDjhUZo39UFA1
+I7m7zQ>V>;B<08EWj>g8H`3
+R3
+R25
+S1
+R0
+R26
+R27
+R28
+L0 34
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@l@e@d@driver_@test
+vLEDDriver_TestPhysical
+R1
+R2
+!i10b 1
+!s100 e4TDiMSB]SS^JfnE^HeW03
+IH]l81HQkgCazzB<>AdSJX1
+R3
+R25
+S1
+R0
+R26
+R27
+R28
+L0 71
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n@l@e@d@driver_@test@physical
+vpipe_filler
+R1
+R2
+!i10b 1
+!s100 1Ygi9UWFo_ajHRi8LJWb<0
+I3FbBGSezAgDNXQkV<38XG0
+R3
+Z29 !s105 pipe_filler_sv_unit
+S1
+R0
+Z30 w1607376496
+Z31 8pipe_filler.sv
+Z32 Fpipe_filler.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vpipe_filler_testbench
+R1
+R2
+!i10b 1
+!s100 @PQ1Mcm7G@Y<oJ0XSN3od2
+I1I:J`4093_aS:6;Mh:ngJ3
+R3
+R29
+S1
+R0
+R30
+R31
+R32
+L0 14
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vpipe_generator
+R1
+R2
+!i10b 1
+!s100 3ZF465h?9Jo2QmTUob4ed0
+IXSaXg2fDZe2bZm:GeemKX0
+R3
+Z33 !s105 pipe_generator_sv_unit
+S1
+R0
+Z34 w1607376677
+Z35 8pipe_generator.sv
+Z36 Fpipe_generator.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vpipe_generator_testbench
+R1
+R2
+!i10b 1
+!s100 eX3ERERTTelUAHcSf_ac00
+IFBf2]k7fOD2a5KGR5jfj93
+R3
+R33
+S1
+R0
+R34
+R35
+R36
+L0 29
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vrandom
+R1
+R2
+!i10b 1
+!s100 BkKoTZcJ_Rm<JB9E5nXlK0
+IT?4b7VB[MFY87l1oZoRBS1
+R3
+Z37 !s105 random_sv_unit
+S1
+R0
+Z38 w1607354032
+Z39 8random.sv
+Z40 Frandom.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vrandom_testbench
+R1
+R2
+!i10b 1
+!s100 M0IAiQ<G7DePO9L:NBjJ72
+I?eieQ?UoW7d5g>5PhNRng3
+R3
+R37
+S1
+R0
+R38
+R39
+R40
+L0 17
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vscore_counter
+R1
+R2
+!i10b 1
+!s100 oAMYd3WMHA_KXfFV]nRLK1
+IeW;JdW]fV8B2bCaG5jFXC2
+R3
+Z41 !s105 score_counter_sv_unit
+S1
+R0
+Z42 w1607371931
+Z43 8score_counter.sv
+Z44 Fscore_counter.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vscore_counter_testbench
+R1
+R2
+!i10b 1
+!s100 :J6nG_DRH<I;10=DU2@Om0
+II^_V5]e3Hic[TmXfD3f=n1
+R3
+R41
+S1
+R0
+R42
+R43
+R44
+L0 42
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vseg7
+R1
+R2
+!i10b 1
+!s100 BlAiU7c^GXEOVflT9;KEU0
+Id<iCzhGN]4eFK`Y_z4?;N0
+R3
+!s105 seg7_sv_unit
+S1
+R0
+w1603895796
+8seg7.sv
+Fseg7.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vseries_dffs
+R1
+R2
+!i10b 1
+!s100 5FA_nB]GGAlbWaSPZ5G`33
+IT=0WO^aGPj=j<3b;PmQY;0
+R3
+Z45 !s105 series_dffs_sv_unit
+S1
+R0
+Z46 w1607090676
+Z47 8series_dffs.sv
+Z48 Fseries_dffs.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vseries_dffs_testbench
+R1
+R2
+!i10b 1
+!s100 :5A=8HO5kz;f5fN_DL7SD1
+IoKfjme3IV`hdgW3VP8`Zl3
+R3
+R45
+S1
+R0
+R46
+R47
+R48
+L0 16
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12

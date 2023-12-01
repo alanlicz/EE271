@@ -1,0 +1,21 @@
+|bigMod
+Val <= tstMod:T2.F
+X => X.IN2
+Y => Y.IN1
+Z => Z.IN1
+
+
+|bigMod|tstMod:T1
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+A => F.IN1
+B => F.IN0
+C => F.IN1
+
+
+|bigMod|tstMod:T2
+F <= F.DB_MAX_OUTPUT_PORT_TYPE
+A => F.IN1
+B => F.IN0
+C => F.IN1
+
+

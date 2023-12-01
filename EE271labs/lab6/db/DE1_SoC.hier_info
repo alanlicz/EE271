@@ -1,0 +1,384 @@
+|DE1_SoC
+CLOCK_50 => CLOCK_50.IN2
+HEX0[0] <= tugOfWar:war.numbers
+HEX0[1] <= tugOfWar:war.numbers
+HEX0[2] <= tugOfWar:war.numbers
+HEX0[3] <= tugOfWar:war.numbers
+HEX0[4] <= tugOfWar:war.numbers
+HEX0[5] <= tugOfWar:war.numbers
+HEX0[6] <= tugOfWar:war.numbers
+HEX1[0] <= <VCC>
+HEX1[1] <= <VCC>
+HEX1[2] <= <VCC>
+HEX1[3] <= <VCC>
+HEX1[4] <= <VCC>
+HEX1[5] <= <VCC>
+HEX1[6] <= <VCC>
+HEX2[0] <= <VCC>
+HEX2[1] <= <VCC>
+HEX2[2] <= <VCC>
+HEX2[3] <= <VCC>
+HEX2[4] <= <VCC>
+HEX2[5] <= <VCC>
+HEX2[6] <= <VCC>
+HEX3[0] <= <VCC>
+HEX3[1] <= <VCC>
+HEX3[2] <= <VCC>
+HEX3[3] <= <VCC>
+HEX3[4] <= <VCC>
+HEX3[5] <= <VCC>
+HEX3[6] <= <VCC>
+HEX4[0] <= <VCC>
+HEX4[1] <= <VCC>
+HEX4[2] <= <VCC>
+HEX4[3] <= <VCC>
+HEX4[4] <= <VCC>
+HEX4[5] <= <VCC>
+HEX4[6] <= <VCC>
+HEX5[0] <= <VCC>
+HEX5[1] <= <VCC>
+HEX5[2] <= <VCC>
+HEX5[3] <= <VCC>
+HEX5[4] <= <VCC>
+HEX5[5] <= <VCC>
+HEX5[6] <= <VCC>
+KEY[0] => _.IN1
+KEY[1] => ~NO_FANOUT~
+KEY[2] => ~NO_FANOUT~
+KEY[3] => _.IN1
+LEDR[0] <= <GND>
+LEDR[1] <= tugOfWar:war.lights
+LEDR[2] <= tugOfWar:war.lights
+LEDR[3] <= tugOfWar:war.lights
+LEDR[4] <= tugOfWar:war.lights
+LEDR[5] <= tugOfWar:war.lights
+LEDR[6] <= tugOfWar:war.lights
+LEDR[7] <= tugOfWar:war.lights
+LEDR[8] <= tugOfWar:war.lights
+LEDR[9] <= tugOfWar:war.lights
+SW[0] => ~NO_FANOUT~
+SW[1] => ~NO_FANOUT~
+SW[2] => ~NO_FANOUT~
+SW[3] => ~NO_FANOUT~
+SW[4] => ~NO_FANOUT~
+SW[5] => ~NO_FANOUT~
+SW[6] => ~NO_FANOUT~
+SW[7] => ~NO_FANOUT~
+SW[8] => ~NO_FANOUT~
+SW[9] => SW[9].IN2
+
+
+|DE1_SoC|inputDeal:KEYS
+clk => button:LEFT.clk
+clk => button:RIGHT.clk
+reset => button:LEFT.reset
+reset => button:RIGHT.reset
+L => button:LEFT.key
+R => button:RIGHT.key
+newL <= button:LEFT.out
+newR <= button:RIGHT.out
+
+
+|DE1_SoC|inputDeal:KEYS|button:LEFT
+clk => ps[0].CLK
+clk => ps[1].CLK
+clk => ps[2].CLK
+clk => ps[3].CLK
+clk => ps[4].CLK
+clk => ps[5].CLK
+clk => ps[6].CLK
+clk => ps[7].CLK
+clk => ps[8].CLK
+clk => ps[9].CLK
+clk => ps[10].CLK
+clk => ps[11].CLK
+clk => ps[12].CLK
+clk => ps[13].CLK
+clk => ps[14].CLK
+clk => ps[15].CLK
+clk => ps[16].CLK
+clk => ps[17].CLK
+clk => ps[18].CLK
+clk => ps[19].CLK
+clk => ps[20].CLK
+clk => ps[21].CLK
+clk => ps[22].CLK
+clk => ps[23].CLK
+clk => ps[24].CLK
+clk => ps[25].CLK
+clk => ps[26].CLK
+clk => ps[27].CLK
+clk => ps[28].CLK
+clk => ps[29].CLK
+clk => ps[30].CLK
+clk => ps[31].CLK
+reset => ps.OUTPUTSELECT
+reset => ps.OUTPUTSELECT
+key => Selector0.IN3
+key => ps.DATAA
+out <= Equal3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|inputDeal:KEYS|button:RIGHT
+clk => ps[0].CLK
+clk => ps[1].CLK
+clk => ps[2].CLK
+clk => ps[3].CLK
+clk => ps[4].CLK
+clk => ps[5].CLK
+clk => ps[6].CLK
+clk => ps[7].CLK
+clk => ps[8].CLK
+clk => ps[9].CLK
+clk => ps[10].CLK
+clk => ps[11].CLK
+clk => ps[12].CLK
+clk => ps[13].CLK
+clk => ps[14].CLK
+clk => ps[15].CLK
+clk => ps[16].CLK
+clk => ps[17].CLK
+clk => ps[18].CLK
+clk => ps[19].CLK
+clk => ps[20].CLK
+clk => ps[21].CLK
+clk => ps[22].CLK
+clk => ps[23].CLK
+clk => ps[24].CLK
+clk => ps[25].CLK
+clk => ps[26].CLK
+clk => ps[27].CLK
+clk => ps[28].CLK
+clk => ps[29].CLK
+clk => ps[30].CLK
+clk => ps[31].CLK
+reset => ps.OUTPUTSELECT
+reset => ps.OUTPUTSELECT
+key => Selector0.IN3
+key => ps.DATAA
+out <= Equal3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|tugOfWar:war
+clk => normalLight:light9.clk
+clk => normalLight:light8.clk
+clk => normalLight:light7.clk
+clk => normalLight:light6.clk
+clk => centerLight:center.clk
+clk => normalLight:light4.clk
+clk => normalLight:light3.clk
+clk => normalLight:light2.clk
+clk => normalLight:light1.clk
+clk => winning:REX.clk
+reset => normalLight:light9.reset
+reset => normalLight:light8.reset
+reset => normalLight:light7.reset
+reset => normalLight:light6.reset
+reset => centerLight:center.reset
+reset => normalLight:light4.reset
+reset => normalLight:light3.reset
+reset => normalLight:light2.reset
+reset => normalLight:light1.reset
+reset => winning:REX.reset
+L => normalLight:light9.L
+L => normalLight:light8.L
+L => normalLight:light7.L
+L => normalLight:light6.L
+L => centerLight:center.L
+L => normalLight:light4.L
+L => normalLight:light3.L
+L => normalLight:light2.L
+L => normalLight:light1.L
+L => winning:REX.L
+R => normalLight:light9.R
+R => normalLight:light8.R
+R => normalLight:light7.R
+R => normalLight:light6.R
+R => centerLight:center.R
+R => normalLight:light4.R
+R => normalLight:light3.R
+R => normalLight:light2.R
+R => normalLight:light1.R
+R => winning:REX.R
+lights[1] <= normalLight:light1.lighton
+lights[2] <= normalLight:light2.lighton
+lights[3] <= normalLight:light3.lighton
+lights[4] <= normalLight:light4.lighton
+lights[5] <= centerLight:center.lighton
+lights[6] <= normalLight:light6.lighton
+lights[7] <= normalLight:light7.lighton
+lights[8] <= normalLight:light8.lighton
+lights[9] <= normalLight:light9.lighton
+numbers[0] <= winning:REX.numbers[0]
+numbers[1] <= winning:REX.numbers[1]
+numbers[2] <= winning:REX.numbers[2]
+numbers[3] <= winning:REX.numbers[3]
+numbers[4] <= winning:REX.numbers[4]
+numbers[5] <= winning:REX.numbers[5]
+numbers[6] <= winning:REX.numbers[6]
+
+
+|DE1_SoC|tugOfWar:war|normalLight:light9
+clk => lighton~reg0.CLK
+reset => lighton.OUTPUTSELECT
+L => always0.IN0
+L => always0.IN0
+L => always0.IN1
+L => always0.IN0
+R => always0.IN1
+R => always0.IN0
+R => always0.IN1
+R => always0.IN1
+NL => always0.IN1
+NR => always0.IN1
+lighton <= lighton~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|tugOfWar:war|normalLight:light8
+clk => lighton~reg0.CLK
+reset => lighton.OUTPUTSELECT
+L => always0.IN0
+L => always0.IN0
+L => always0.IN1
+L => always0.IN0
+R => always0.IN1
+R => always0.IN0
+R => always0.IN1
+R => always0.IN1
+NL => always0.IN1
+NR => always0.IN1
+lighton <= lighton~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|tugOfWar:war|normalLight:light7
+clk => lighton~reg0.CLK
+reset => lighton.OUTPUTSELECT
+L => always0.IN0
+L => always0.IN0
+L => always0.IN1
+L => always0.IN0
+R => always0.IN1
+R => always0.IN0
+R => always0.IN1
+R => always0.IN1
+NL => always0.IN1
+NR => always0.IN1
+lighton <= lighton~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|tugOfWar:war|normalLight:light6
+clk => lighton~reg0.CLK
+reset => lighton.OUTPUTSELECT
+L => always0.IN0
+L => always0.IN0
+L => always0.IN1
+L => always0.IN0
+R => always0.IN1
+R => always0.IN0
+R => always0.IN1
+R => always0.IN1
+NL => always0.IN1
+NR => always0.IN1
+lighton <= lighton~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|tugOfWar:war|centerLight:center
+clk => lighton~reg0.CLK
+reset => lighton.OUTPUTSELECT
+L => always0.IN0
+L => always0.IN0
+L => always0.IN1
+L => always0.IN0
+R => always0.IN1
+R => always0.IN0
+R => always0.IN1
+R => always0.IN1
+NL => always0.IN1
+NR => always0.IN1
+lighton <= lighton~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|tugOfWar:war|normalLight:light4
+clk => lighton~reg0.CLK
+reset => lighton.OUTPUTSELECT
+L => always0.IN0
+L => always0.IN0
+L => always0.IN1
+L => always0.IN0
+R => always0.IN1
+R => always0.IN0
+R => always0.IN1
+R => always0.IN1
+NL => always0.IN1
+NR => always0.IN1
+lighton <= lighton~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|tugOfWar:war|normalLight:light3
+clk => lighton~reg0.CLK
+reset => lighton.OUTPUTSELECT
+L => always0.IN0
+L => always0.IN0
+L => always0.IN1
+L => always0.IN0
+R => always0.IN1
+R => always0.IN0
+R => always0.IN1
+R => always0.IN1
+NL => always0.IN1
+NR => always0.IN1
+lighton <= lighton~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|tugOfWar:war|normalLight:light2
+clk => lighton~reg0.CLK
+reset => lighton.OUTPUTSELECT
+L => always0.IN0
+L => always0.IN0
+L => always0.IN1
+L => always0.IN0
+R => always0.IN1
+R => always0.IN0
+R => always0.IN1
+R => always0.IN1
+NL => always0.IN1
+NR => always0.IN1
+lighton <= lighton~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|tugOfWar:war|normalLight:light1
+clk => lighton~reg0.CLK
+reset => lighton.OUTPUTSELECT
+L => always0.IN0
+L => always0.IN0
+L => always0.IN1
+L => always0.IN0
+R => always0.IN1
+R => always0.IN0
+R => always0.IN1
+R => always0.IN1
+NL => always0.IN1
+NR => always0.IN1
+lighton <= lighton~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DE1_SoC|tugOfWar:war|winning:REX
+clk => ps~1.DATAIN
+reset => ps.OUTPUTSELECT
+reset => ps.OUTPUTSELECT
+reset => ps.OUTPUTSELECT
+leftest => always0.IN0
+rightest => always0.IN0
+L => always0.IN1
+L => always0.IN1
+R => always0.IN1
+R => always0.IN1
+numbers[0] <= Selector7.DB_MAX_OUTPUT_PORT_TYPE
+numbers[1] <= Selector6.DB_MAX_OUTPUT_PORT_TYPE
+numbers[2] <= Selector5.DB_MAX_OUTPUT_PORT_TYPE
+numbers[3] <= Selector4.DB_MAX_OUTPUT_PORT_TYPE
+numbers[4] <= Selector3.DB_MAX_OUTPUT_PORT_TYPE
+numbers[5] <= <VCC>
+numbers[6] <= Selector2.DB_MAX_OUTPUT_PORT_TYPE
+
+

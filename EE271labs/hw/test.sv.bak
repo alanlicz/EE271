@@ -1,0 +1,12 @@
+module tstMod(F, A, B, C);
+ output logic F;
+ input logic A, B, C;
+ assign F = A | (B & ~C);
+endmodule
+module bigMod(Val, X, Y, Z);
+ output logic Val;
+ input logic X, Y, Z;
+ logic T;
+ tstMod T1 (.F(T), .A(X), .B(1'b1), .C(Y));
+ tstMod T2 (.F(Val), .A(Z), .B(T), .C(X));
+endmodule

@@ -1,0 +1,7 @@
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Warning (10273): Verilog HDL warning at seg7.sv(17): extended using "x" or "z" File: C:/Users/alanl/Desktop/e53b0a78b8cc8131b3861ff6932f4047/Lab8/seg7.sv Line: 17
+Warning (10268): Verilog HDL information at score_counter.sv(10): always construct contains both blocking and non-blocking assignments File: C:/Users/alanl/Desktop/e53b0a78b8cc8131b3861ff6932f4047/Lab8/score_counter.sv Line: 10
+Warning (10268): Verilog HDL information at pipe_generator.sv(12): always construct contains both blocking and non-blocking assignments File: C:/Users/alanl/Desktop/e53b0a78b8cc8131b3861ff6932f4047/Lab8/pipe_generator.sv Line: 12
+Warning (10268): Verilog HDL information at bird.sv(9): always construct contains both blocking and non-blocking assignments File: C:/Users/alanl/Desktop/e53b0a78b8cc8131b3861ff6932f4047/Lab8/bird.sv Line: 9
+Warning (10268): Verilog HDL information at DE1_SoC.sv(74): always construct contains both blocking and non-blocking assignments File: C:/Users/alanl/Desktop/e53b0a78b8cc8131b3861ff6932f4047/Lab8/DE1_SoC.sv Line: 74
+Warning (10034): Output port "LEDR" at DE1_SoC.sv(4) has no driver File: C:/Users/alanl/Desktop/e53b0a78b8cc8131b3861ff6932f4047/Lab8/DE1_SoC.sv Line: 4
